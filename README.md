@@ -7,18 +7,7 @@
 Une calculatrice desktop développée avec JavaFX, inspirée du design de la calculatrice GNOME sous Ubuntu.
 
 ![screenshot.png](screenshot.png)
-## Fonctionnalités
 
-- **Opérations de base** : Addition, soustraction, multiplication, division
-- **Opérations avancées** :
-    - Modulo (mod)
-    - Racine carrée (√)
-    - Puissance au carré (X²)
-    - Pourcentage (%)
-    - Parenthèses pour l'ordre des opérations
-- **Historique** : Affichage des calculs précédents
-- **Interface intuitive** : Design sombre moderne avec des boutons colorés
-- **Support clavier** : Touche Entrée pour calculer
 
 ## Technologies utilisées
 
@@ -50,22 +39,6 @@ Une calculatrice desktop développée avec JavaFX, inspirée du design de la cal
    mvn javafx:run
    ```
 
-## Structure du projet
-
-```
-src/main/java/com/calculator/
-├── App.java                          # Point d'entrée de l'application
-├── model/
-│   └── CalculatorModel.java          # Logique métier et calculs
-├── view/
-│   └── CalculatorView.java           # Interface utilisateur
-└── controller/
-    └── CalculatorController.java     # Gestion des événements
-```
-
-Le projet suit le **pattern MVC (Model-View-Controller)** pour une meilleure séparation des responsabilités.
-
-
 ## Utilisation
 
 1. **Saisir une expression** : Cliquez sur les boutons ou utilisez votre clavier
@@ -75,21 +48,12 @@ Le projet suit le **pattern MVC (Model-View-Controller)** pour une meilleure sé
     - `DEL` : Supprime le dernier caractère
 4. **Historique** : Les calculs précédents s'affichent en haut
 
-## Licence
-
-Ce projet est sous licence MIT. À usage éducatif.
 
 ## Auteur
 
 **Steve Anderson H.**
 - GitHub: [@SteveAnderson95](https://github.com/SteveAnderson95)
-- LinkedIn: [Steve Anderson H.](https://www.linkedin.com/in/steve-anderson-h-931861347/)
-
-## Remerciements
-
-- Inspiration design : Calculatrice GNOME (Ubuntu)
-- Bibliothèque exp4j pour l'évaluation des expressions
-- La communauté JavaFX
+- LinkedIn: [Steve Anderson HAKIZIMANA](https://www.linkedin.com/in/steve-anderson-hakizimana/)
 
 ---
 
